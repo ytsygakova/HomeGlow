@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homeaglow Test Plan</title>
+</head>
+<body>
+<h1>Homeaglow Purchase Flow Test Plan</h1>
+<h2>1. Introduction</h2>
+<p><strong>Objective:</strong> Ensure a seamless customer journey from clicking the ad to scheduling an appointment on
+    Homeaglow.</p>
+<p><strong>Scope:</strong> Includes ad click redirection, website interactions, and purchase completion.</p>
+
+<h2>2. Test Items</h2>
+<ul>
+    <li>Ad Redirection Functionality</li>
+    <li>Eligibility Check based on Zip Code</li>
+    <li>Voucher Selection and Purchase Process</li>
+</ul>
+
+<h2>3. Features to be Tested</h2>
+<ul>
+    <li>Redirection from various advertising platforms to the Homeaglow website</li>
+    <li>Interactive elements and information accuracy on the deals page</li>
+    <li>User information input validation and functionality</li>
+    <li>Payment processing with multiple methods</li>
+</ul>
+
+<h2>4. Features Not to be Tested</h2>
+<ul>
+    <li>Areas outside the purchase flow, such as user profile management or scheduling.</li>
+    <li>Emails/texts - these are blocked on staging and don't need to be included.</li>
+    <li>Apple+Google Pay</li>
+</ul>
+
+<h2>5. Testing Approach</h2>
+<h3>Functional Testing</h3>
+<p>This involves verifying the functionalities of the website according to the requirements. It includes testing all user interactions, data processing, and validations within the purchase flow.</p>
+<p>Test cases:</p>
+<a>https://docs.google.com/spreadsheets/d/1FSdMTXHey3qzGz7iqVv9UQB66GJNXxKFFxkgX4t4ccs/edit?usp=sharing</a>
+<h3>Usability Testing</h3>
+<p>Focuses on the user experience to ensure the website is intuitive and easy to navigate. This includes assessing the design, layout, and overall user journey through the purchase process.</p>
+
+<h3>Performance Testing</h3>
+<p>Ensures that the website performs well under various conditions. This includes testing load times, responsiveness, and the website's ability to handle a high volume of users simultaneously.</p>
+
+<h3>Accessibility Testing</h3>
+<p>Checks the website's compliance with accessibility standards to ensure it is usable by people with disabilities. This includes testing for screen reader compatibility, color contrast, and keyboard navigation.</p>
+
+<h3>Cross-Browser and Device Compatibility</h3>
+<p>The selection of browsers and devices is based on the target user demographic and popular usage statistics. We aim to cover a diverse range of platforms to ensure the majority of our users have a seamless experience.</p>
+<p>Desktop Browsers: Latest version of Chrome, Safari, Firefox, Edge.</p>
+<p>Mobile Browsers: Safari on iOS and Google Chrome on Android. We will test on the latest and previous versions of iOS and Android.</p>
+<p>Devices: Desktops, laptops, tablets, and mobile devices.</p>
+<p>Browser Settings: enabling/disabling JavaScript</p>
+
+<h3>Test Automation</h3>
+<p>We will utilize the Playwright framework with TypeScript for automated testing to cover  the most common and high-impact user journeys, repetitive and regression testing, data validation, and high-level performance testing.</p>
+
+<h2>6. Entry/Exit Criteria</h2>
+<h3>Entry Criteria</h3>
+<ul>
+    <li>Completion of development for the purchase flow features.</li>
+    <li>Availability of the test environment, including setup for various browsers and devices.</li>
+    <li>Initial test cases and test scripts are prepared and reviewed.</li>
+</ul>
+
+<h3>Exit Criteria</h3>
+<ul>
+    <li>All critical and major defects fixed and retested successfully.</li>
+    <li>Achievement of predefined test coverage thresholds.</li>
+    <li>Completion of regression testing without any major issues.</li>
+    <li>Approval from the QA lead or project manager confirming that testing objectives are met.</li>
+</ul>
+
+<h2>7. Test Deliverables</h2>
+<ul>
+    <li>Test Plan Document</li>
+    <li>List of Test Cases</li>
+    <li>Test Reports and Defect Logs</li>
+    <li>Code on GitHub for automated tests </li>
+</ul>
+
+<h2>8. Environmental Needs</h2>
+<p>Testing across various browsers, devices, and network conditions.</p>
+
+<h2>9. Responsibilities</h2>
+<p>TBD</p>
+
+<h2>10. Schedule</h2>
+<p>Timeline for planning, execution, and reporting of testing activities. [TBD]</p>
+
+<h2>11. Risks and Contingencies</h2>
+<p>Potential risks and their mitigation strategies in the testing process. [TBD]</p>
+
+<h2>12. Approval</h2>
+<p>Approval section for key stakeholders. [TBD]</p>
+</body>
+</html>
